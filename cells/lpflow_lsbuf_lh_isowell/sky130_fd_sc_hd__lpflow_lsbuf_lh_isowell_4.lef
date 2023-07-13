@@ -96,6 +96,18 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
         RECT 0.000000 5.200000 7.360000 5.680000 ;
     END
   END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     SHAPE ABUTMENT ;
