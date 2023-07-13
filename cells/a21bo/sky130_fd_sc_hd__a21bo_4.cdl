@@ -26,9 +26,13 @@ MMIPB1N B1 B1_N VPWR VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MMIPX X y VPWR VPB pfet_01v8_hvt m=4 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNA0 y A1 sndA1 VNB nfet_01v8 m=2 w=0.65 l=0.15 mult=1 sa=0.265
+MMNA0 y A1 sndA1 VNB nfet_01v8 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MMNA1 sndA1 A2 VGND VNB nfet_01v8 m=2 w=0.65 l=0.15 mult=1 sa=0.265
+MMNA20 y A1 snd2A1 VNB nfet_01v8 w=0.65 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNA1 sndA1 A2 VGND VNB nfet_01v8 w=0.65 l=0.15 mult=1 sa=0.265
++ sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
+MMNA21 snd2A1 A2 VGND VNB nfet_01v8 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MMNB0 y B1 VGND VNB nfet_01v8 m=2 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
