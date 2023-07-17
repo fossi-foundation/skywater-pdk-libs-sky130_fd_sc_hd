@@ -37,7 +37,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.behavioral.pp.v"
+`include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.timing.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
@@ -45,7 +45,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.functional.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.behavioral.v"
+`include "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell.timing.v"
 `endif // FUNCTIONAL
 
 `endif // USE_POWER_PINS
