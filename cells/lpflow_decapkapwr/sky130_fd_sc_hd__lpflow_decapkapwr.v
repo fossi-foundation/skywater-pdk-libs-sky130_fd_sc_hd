@@ -36,7 +36,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_hd__lpflow_decapkapwr.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_decapkapwr.behavioral.pp.v"
+`include "sky130_fd_sc_hd__lpflow_decapkapwr.timing.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
@@ -44,7 +44,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_hd__lpflow_decapkapwr.functional.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_hd__lpflow_decapkapwr.behavioral.v"
+`include "sky130_fd_sc_hd__lpflow_decapkapwr.timing.v"
 `endif // FUNCTIONAL
 
 `endif // USE_POWER_PINS
