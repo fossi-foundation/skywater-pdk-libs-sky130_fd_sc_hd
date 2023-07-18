@@ -65,6 +65,11 @@ module sky130_fd_sc_hd__macro_sparecell (
     sky130_fd_sc_hd__conb_1  conb0  (.LO(tielo)   , .HI(net7)                  );
     buf                      buf0   (LO           , tielo                      );
 
+specify
+specparam CDS_LIBNAME  = "scs8hd_macro";
+specparam CDS_CELLNAME = "scs8hd_macro_sparecell";
+specparam CDS_VIEWNAME = "schematic";
+endspecify
 endmodule
 `endcelldefine
 
