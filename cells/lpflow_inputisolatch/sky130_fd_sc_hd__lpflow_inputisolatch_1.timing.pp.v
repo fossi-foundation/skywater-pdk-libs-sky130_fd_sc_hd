@@ -67,8 +67,8 @@ specify
 (posedge SLEEP_B => (Q +: D ) ) = (0:0:0,0:0:0); // delays are tris,tfall
 $width (posedge SLEEP_B , 0:0:0, 0, notifier);
 $width (negedge SLEEP_B , 0:0:0, 0, notifier);
-$setuphold ( negedge SLEEP_B , posedge D , 0:0:0, 0:0:0, notifier , , , SLEEPB_delayed , D_delayed ) ;
-$setuphold ( negedge SLEEP_B , negedge D , 0:0:0, 0:0:0, notifier , , , SLEEPB_delayed , D_delayed ) ;
+$setuphold ( negedge SLEEP_B , posedge D , 0:0:0, 0:0:0, notifier , , , SLEEP_B_delayed , D_delayed ) ;
+$setuphold ( negedge SLEEP_B , negedge D , 0:0:0, 0:0:0, notifier , , , SLEEP_B_delayed , D_delayed ) ;
 endspecify
 endmodule
 `endcelldefine
