@@ -24,7 +24,7 @@ MACRO sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2
   ORIGIN  0.000000  0.000000 ;
   SIZE  6.440000 BY  5.440000 ;
   SYMMETRY X Y R90 ;
-  SITE unithd ;
+  SITE unithddbl ;
   PIN A
     ANTENNAGATEAREA  0.603000 ;
     DIRECTION INPUT ;
