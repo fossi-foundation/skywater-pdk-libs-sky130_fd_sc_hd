@@ -22,13 +22,13 @@ MI636 sleepneg sleeppos VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI674 net39 s0 VGND VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI19 s0 sleepneg net49 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI19 s0 sleepneg net49 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI20 net49 D VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI655 s0 sleeppos net38 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1
+MI655 s0 sleeppos net38 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI654 net38 net39 VGND VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI654 net38 net39 VGND VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI670 sleeppos SLEEP_B VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14

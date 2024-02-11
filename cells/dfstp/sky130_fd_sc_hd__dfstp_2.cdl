@@ -18,7 +18,7 @@
 *.PININFO CLK:I D:I SET_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
 MI36 net120 M0 VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI42 db clkneg M0 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI42 db clkneg M0 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI44 clkneg CLK VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
@@ -40,7 +40,7 @@ MI27 net80 S1 net88 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI647 S1 S0 VGND VNB nfet_01v8 m=1 w=0.54 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI655 M0 clkpos net71 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI655 M0 clkpos net71 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI657 net103 SET_B VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14

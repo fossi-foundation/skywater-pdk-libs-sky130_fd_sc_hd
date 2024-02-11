@@ -18,7 +18,7 @@
 *.PININFO CLK_N:I D:I RESET_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
 MI46 clkneg clkpos VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI42 db clkneg M0 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI42 db clkneg M0 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI656 net83 net121 net109 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
@@ -26,11 +26,11 @@ MI657 net109 RESET_B VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI33 net102 RESET_B VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI4 M0 clkpos net94 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI4 M0 clkpos net94 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI34 net94 M1 net102 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI655 net121 clkneg net82 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1
+MI655 net121 clkneg net82 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI653 Q net83 VGND VNB nfet_01v8 m=1 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
@@ -42,7 +42,7 @@ MI647 M1 M0 VGND VNB nfet_01v8 m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI39 db D VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI649 M1 clkpos net121 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI649 M1 clkpos net121 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI47 clkneg clkpos VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14

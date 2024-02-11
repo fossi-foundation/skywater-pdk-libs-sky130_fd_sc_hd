@@ -18,7 +18,7 @@
 *.PININFO D:I GATE:I RESET_B:I VGND:I VNB:I VPB:I VPWR:I Q:O
 MI635 clkpos clkneg VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI17 M0 clkneg net54 VPB pfet_01v8_hvt m=1 w=0.36 l=0.15 mult=1
+MI17 M0 clkneg net54 VPB special_pfet_01v8_hvt m=1 w=0.36 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI650 Q m1 VPWR VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
@@ -30,7 +30,7 @@ MI18 net54 db VPWR VPB pfet_01v8_hvt m=1 w=0.64 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI653 net50 m1 VPWR VPB pfet_01v8_hvt m=1 w=0.42 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI651 M0 clkpos net50 VPB pfet_01v8_hvt m=1 w=0.36 l=0.15 mult=1
+MI651 M0 clkpos net50 VPB special_pfet_01v8_hvt m=1 w=0.36 l=0.15 mult=1
 + sa=0.265 sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI655 m1 M0 VPWR VPB pfet_01v8_hvt m=1 w=1.0 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
