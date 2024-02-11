@@ -18,7 +18,7 @@
 .subckt sky130_fd_sc_hd__dfbbn_2 CLK_N D RESET_B SET_B VGND VNB VPB VPWR Q Q_N
 X0 a_944_21# RESET_B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
 X1 Q_N a_1431_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
-X2 a_1257_47# a_193_47# a_1366_47# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X2 a_1257_47# a_193_47# a_1366_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
 X3 a_2236_47# a_1431_21# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X4 a_1115_329# a_193_47# a_1257_47# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X5 Q a_2236_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
@@ -28,13 +28,13 @@ X8 a_650_21# a_944_21# a_790_47# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
 X9 a_1366_47# a_1431_21# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
 X10 VGND a_1431_21# Q_N VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X11 VGND a_2236_47# Q VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-X12 a_381_47# a_193_47# a_476_47# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X12 a_381_47# a_193_47# a_476_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
 X13 a_1431_21# a_944_21# a_1547_47# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
 X14 VPWR D a_381_47# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X15 a_1257_47# a_27_47# a_1343_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
 X16 a_2236_47# a_1431_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
-X17 a_1162_47# a_27_47# a_1257_47# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
-X18 a_476_47# a_27_47# a_584_47# VNB sky130_fd_pr__nfet_01v8 w=360000u l=150000u
+X17 a_1162_47# a_27_47# a_1257_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
+X18 a_476_47# a_27_47# a_584_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
 X19 Q_N a_1431_21# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
 X20 a_894_329# a_944_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
 X21 a_790_47# a_476_47# a_650_21# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u

@@ -66,15 +66,15 @@ MI635 clkneg CLK VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI641 net227 q1 VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI642 S0 clkneg net227 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI642 S0 clkneg net227 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI648 db clkneg M0 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI648 db clkneg M0 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI646 Q S0 VGND VNB nfet_01v8 m=4 w=0.65 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI656 net206 M1 VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI657 M0 clkpos net206 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI657 M0 clkpos net206 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI43 net95 sceneg db VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
@@ -86,7 +86,7 @@ MI32 net95 D net190 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI16 net187 M1 VGND VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
-MI15 S0 clkpos net187 VNB nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
+MI15 S0 clkpos net187 VNB special_nfet_01v8 m=1 w=0.36 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
 MI41 net174 q1 net95 VNB nfet_01v8 m=1 w=0.42 l=0.15 mult=1 sa=0.265
 + sb=0.265 sd=0.28 topography=normal area=0.063 perim=1.14
