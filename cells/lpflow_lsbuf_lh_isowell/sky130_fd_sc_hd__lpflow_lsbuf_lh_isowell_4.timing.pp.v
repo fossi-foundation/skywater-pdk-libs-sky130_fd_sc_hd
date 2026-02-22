@@ -46,13 +46,13 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 (
 );
 
     // Module ports
-    output X       ;
-    input  A       ;
-    input  LOWLVPWR;
-    input  VPWR    ;
-    input  VGND    ;
-    input  VPB     ;
-    input  VNB     ;
+    output wire X       ;
+    input wire  A       ;
+    input wire  LOWLVPWR;
+    input wire  VPWR    ;
+    input wire  VGND    ;
+    input wire  VPB     ;
+    input wire  VNB     ;
 
     // Local signals
     wire pwrgood0_out_A;

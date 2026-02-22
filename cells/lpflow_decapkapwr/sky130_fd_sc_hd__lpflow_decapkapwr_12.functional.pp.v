@@ -40,11 +40,11 @@ module sky130_fd_sc_hd__lpflow_decapkapwr_12 (
 );
 
     // Module ports
-    input VPWR ;
-    input KAPWR;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
+    input wire VPWR ;
+    input wire KAPWR;
+    input wire VGND ;
+    input wire VPB  ;
+    input wire VNB  ;
      // No contents.
 endmodule
 `endcelldefine

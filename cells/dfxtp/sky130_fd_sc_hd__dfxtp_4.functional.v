@@ -40,9 +40,9 @@ module sky130_fd_sc_hd__dfxtp_4 (
 );
 
     // Module ports
-    output Q  ;
-    input  CLK;
-    input  D  ;
+    output wire Q  ;
+    input wire  CLK;
+    input wire  D  ;
 
     // Local signals
     wire buf_Q;

@@ -43,12 +43,12 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 (
     VPB
 );
 
-    output X     ;
-    input  A     ;
-    input  VPWRIN;
-    input  VPWR  ;
-    input  VGND  ;
-    input  VPB   ;
+    output wire X     ;
+    input wire  A     ;
+    input wire  VPWRIN;
+    input wire  VPWR  ;
+    input wire  VGND  ;
+    input wire  VPB   ;
 endmodule
 
 `default_nettype wire

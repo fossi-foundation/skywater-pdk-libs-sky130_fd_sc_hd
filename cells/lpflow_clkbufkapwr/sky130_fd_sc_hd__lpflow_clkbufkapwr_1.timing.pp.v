@@ -44,13 +44,13 @@ module sky130_fd_sc_hd__lpflow_clkbufkapwr_1 (
 );
 
     // Module ports
-    output X    ;
-    input  A    ;
-    input  KAPWR;
-    input  VPWR ;
-    input  VGND ;
-    input  VPB  ;
-    input  VNB  ;
+    output wire X    ;
+    input wire  A    ;
+    input wire  KAPWR;
+    input wire  VPWR ;
+    input wire  VGND ;
+    input wire  VPB  ;
+    input wire  VNB  ;
 
     // Local signals
     wire buf0_out_X    ;

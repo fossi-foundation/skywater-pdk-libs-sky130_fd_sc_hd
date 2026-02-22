@@ -40,12 +40,12 @@ module sky130_fd_sc_hd__probec_p_8 (
     VPWR
 );
 
-    output X   ;
-    input  A   ;
-    input  VGND;
-    input  VNB ;
-    input  VPB ;
-    input  VPWR;
+    output wire X   ;
+    input wire  A   ;
+    input wire  VGND;
+    input wire  VNB ;
+    input wire  VPB ;
+    input wire  VPWR;
 endmodule
 
 `default_nettype wire

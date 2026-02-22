@@ -87,7 +87,7 @@ module top();
         #600  D       = 1'bx;
     end
 
-    sky130_fd_sc_hd__lpflow_inputisolatch dut (.D(D), .SLEEP_B(SLEEP_B), .VPWR(VPWR), .VGND(VGND), .VPB(VPB), .VNB(VNB), .Q(Q));
+    sky130_fd_sc_hd__lpflow_input wireisolatch dut (.D(D), .SLEEP_B(SLEEP_B), .VPWR(VPWR), .VGND(VGND), .VPB(VPB), .VNB(VNB), .Q(Q));
 
 endmodule
 

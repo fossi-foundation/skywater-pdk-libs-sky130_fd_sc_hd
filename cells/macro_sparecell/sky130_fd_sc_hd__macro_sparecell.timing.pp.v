@@ -47,11 +47,11 @@ module sky130_fd_sc_hd__macro_sparecell (
 );
 
     // Module ports
-    output LO  ;
-    input  VGND;
-    input  VNB ;
-    input  VPB ;
-    input  VPWR;
+    output wire LO  ;
+    input wire  VGND;
+    input wire  VNB ;
+    input wire  VPB ;
+    input wire  VPWR;
 
     // Local signals
     wire nor2left ;

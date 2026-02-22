@@ -43,7 +43,7 @@ module sky130_fd_sc_hd__macro_sparecell (
 );
 
     // Module ports
-    output LO;
+    output wire LO;
 
     // Local signals
     wire nor2left ;

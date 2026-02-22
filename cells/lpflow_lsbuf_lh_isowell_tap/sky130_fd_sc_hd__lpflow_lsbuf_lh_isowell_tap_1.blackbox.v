@@ -38,8 +38,8 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 (
     A
 );
 
-    output X;
-    input  A;
+    output wire X;
+    input wire  A;
 
     // Voltage supply signals
     wire    LOWLVPWR;

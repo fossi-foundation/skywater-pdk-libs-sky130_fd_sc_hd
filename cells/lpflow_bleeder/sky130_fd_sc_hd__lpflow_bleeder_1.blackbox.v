@@ -35,7 +35,7 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
     SHORT
 );
 
-    input SHORT;
+    input wire SHORT;
 
     // Voltage supply signals
     wire    VPWR;

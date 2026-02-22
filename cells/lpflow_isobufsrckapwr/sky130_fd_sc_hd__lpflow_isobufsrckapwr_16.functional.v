@@ -40,9 +40,9 @@ module sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 (
 );
 
     // Module ports
-    output X    ;
-    input  SLEEP;
-    input  A    ;
+    output wire X    ;
+    input wire  SLEEP;
+    input wire  A    ;
 
     // Local signals
     wire not0_out  ;

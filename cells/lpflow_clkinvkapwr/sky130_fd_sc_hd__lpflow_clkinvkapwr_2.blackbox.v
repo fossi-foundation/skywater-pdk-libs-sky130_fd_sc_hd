@@ -36,8 +36,8 @@ module sky130_fd_sc_hd__lpflow_clkinvkapwr_2 (
     A
 );
 
-    output Y;
-    input  A;
+    output wire Y;
+    input wire  A;
 
     // Voltage supply signals
     supply1 KAPWR;
