@@ -36,8 +36,8 @@
 (* blackbox *)
 module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell (
     //# {{data|Data Signals}}
-    input  A,
-    output X
+    input wire  A,
+    output wire X
 );
 
     // Voltage supply signals

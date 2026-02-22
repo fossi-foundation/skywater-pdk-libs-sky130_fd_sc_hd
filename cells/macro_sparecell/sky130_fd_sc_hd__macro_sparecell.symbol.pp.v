@@ -36,13 +36,13 @@
 (* blackbox *)
 module sky130_fd_sc_hd__macro_sparecell (
     //# {{data|Data Signals}}
-    output LO  ,
+    output wire LO  ,
 
     //# {{power|Power}}
-    input  VPB ,
-    input  VPWR,
-    input  VGND,
-    input  VNB
+    input wire  VPB ,
+    input wire  VPWR,
+    input wire  VGND,
+    input wire  VNB
 );
 endmodule
 

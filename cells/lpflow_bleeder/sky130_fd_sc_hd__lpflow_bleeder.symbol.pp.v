@@ -34,11 +34,11 @@
 (* blackbox *)
 module sky130_fd_sc_hd__lpflow_bleeder (
     //# {{power|Power}}
-    input SHORT,
-    input VPB  ,
+    input wire SHORT,
+    input wire VPB  ,
     inout VPWR ,
-    input VGND ,
-    input VNB
+    input wire VGND ,
+    input wire VNB
 );
 endmodule
 

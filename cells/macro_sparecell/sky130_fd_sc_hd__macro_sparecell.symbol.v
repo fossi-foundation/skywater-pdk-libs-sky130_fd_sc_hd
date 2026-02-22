@@ -36,7 +36,7 @@
 (* blackbox *)
 module sky130_fd_sc_hd__macro_sparecell (
     //# {{data|Data Signals}}
-    output LO
+    output wire LO
 );
 
     // Voltage supply signals

@@ -37,11 +37,11 @@
 (* blackbox *)
 module sky130_fd_sc_hd__lpflow_isobufsrckapwr (
     //# {{data|Data Signals}}
-    input  A    ,
-    output X    ,
+    input wire  A    ,
+    output wire X    ,
 
     //# {{power|Power}}
-    input  SLEEP
+    input wire  SLEEP
 );
 
     // Voltage supply signals
