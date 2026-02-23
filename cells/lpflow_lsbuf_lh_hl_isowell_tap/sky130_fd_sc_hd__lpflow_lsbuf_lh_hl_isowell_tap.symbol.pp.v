@@ -37,14 +37,14 @@
 (* blackbox *)
 module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap (
     //# {{data|Data Signals}}
-    input  A     ,
-    output X     ,
+    input wire  A     ,
+    output wire X     ,
 
     //# {{power|Power}}
-    input  VPB   ,
-    input  VPWR  ,
-    input  VPWRIN,
-    input  VGND
+    input wire  VPB   ,
+    input wire  VPWR  ,
+    input wire  VPWRIN,
+    input wire  VGND
 );
 endmodule
 

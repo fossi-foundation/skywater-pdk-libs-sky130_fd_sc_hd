@@ -39,9 +39,9 @@ module sky130_fd_sc_hd__lpflow_isobufsrc_8 (
     A
 );
 
-    output X    ;
-    input  SLEEP;
-    input  A    ;
+    output wire X    ;
+    input wire  SLEEP;
+    input wire  A    ;
 
     // Voltage supply signals
     supply1 VPWR;

@@ -37,7 +37,7 @@ module sky130_fd_sc_hd__macro_sparecell (
     LO
 );
 
-    output LO;
+    output wire LO;
 
     // Voltage supply signals
     supply0 VGND;

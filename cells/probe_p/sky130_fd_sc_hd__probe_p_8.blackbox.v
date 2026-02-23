@@ -36,8 +36,8 @@ module sky130_fd_sc_hd__probe_p_8 (
     A
 );
 
-    output X;
-    input  A;
+    output wire X;
+    input wire  A;
 
     // Voltage supply signals
     supply0 VGND;

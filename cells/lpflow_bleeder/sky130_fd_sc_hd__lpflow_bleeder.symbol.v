@@ -34,7 +34,7 @@
 (* blackbox *)
 module sky130_fd_sc_hd__lpflow_bleeder (
     //# {{power|Power}}
-    input SHORT
+    input wire SHORT
 );
 
     // Voltage supply signals

@@ -39,8 +39,8 @@ module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 (
 );
 
     // Module ports
-    output X;
-    input  A;
+    output wire X;
+    input wire  A;
 
     //  Name  Output  Other arguments
     buf buf0 (X     , A              );

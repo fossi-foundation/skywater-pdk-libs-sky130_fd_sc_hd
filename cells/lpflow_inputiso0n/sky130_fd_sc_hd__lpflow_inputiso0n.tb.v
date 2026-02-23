@@ -89,7 +89,7 @@ module top();
         #600  A       = 1'bx;
     end
 
-    sky130_fd_sc_hd__lpflow_inputiso0n dut (.A(A), .SLEEP_B(SLEEP_B), .VPWR(VPWR), .VGND(VGND), .VPB(VPB), .VNB(VNB), .X(X));
+    sky130_fd_sc_hd__lpflow_input wireiso0n dut (.A(A), .SLEEP_B(SLEEP_B), .VPWR(VPWR), .VGND(VGND), .VPB(VPB), .VNB(VNB), .X(X));
 
 endmodule
 

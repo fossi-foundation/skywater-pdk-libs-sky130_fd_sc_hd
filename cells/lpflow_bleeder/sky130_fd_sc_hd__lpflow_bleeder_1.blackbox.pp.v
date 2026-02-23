@@ -39,11 +39,11 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
     VNB
 );
 
-    input SHORT;
+    input wire SHORT;
     inout VPWR ;
-    input VGND ;
-    input VPB  ;
-    input VNB  ;
+    input wire VGND ;
+    input wire VPB  ;
+    input wire VNB  ;
 endmodule
 
 `default_nettype wire
