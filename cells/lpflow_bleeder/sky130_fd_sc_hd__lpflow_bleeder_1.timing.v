@@ -29,9 +29,13 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
 
     input wire SHORT;
 
-specify
-(SHORT => VPWR) = (0:0:0,0:0:0,0:0:0,0:0:0,0:0:0,0:0:0);
-endspecify
+    /* NOTE:  The bleeder cell shorts power to ground through a
+     * weak pull-down when SHORT is high.  When no power supplies
+     * are modeled in the verilog, then the bleeder function
+     * cannot be implemented, and a specify section cannot be
+     * described.
+     */
+
 endmodule
 `endcelldefine
 

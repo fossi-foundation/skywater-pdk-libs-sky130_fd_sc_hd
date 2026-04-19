@@ -37,6 +37,11 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
     input wire VPB  ;
     input wire VNB  ;
 
+    wire gnd;
+
+    pulldown(gnd);
+    bufif1 (VPWR, gnd, SHORT);
+
 endmodule
 `endcelldefine
 

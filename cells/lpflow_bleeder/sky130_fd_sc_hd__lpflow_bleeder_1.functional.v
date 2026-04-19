@@ -29,6 +29,11 @@ module sky130_fd_sc_hd__lpflow_bleeder_1 (
 
     input wire SHORT;
 
+    /* The function of the bleeder cell is to short power to ground
+     * through a weak resistor.  If power supplies are not modeled
+     * in the verilog, then this cell's function cannot be described.
+     */
+
 endmodule
 `endcelldefine
 
